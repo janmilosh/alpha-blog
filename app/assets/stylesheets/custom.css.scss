@@ -1,5 +1,8 @@
 @import 'bootstrap/dist/css/bootstrap';
 
+body {
+  background-color: lightgrey;
+}
 .navbar-brand {
   font-size: 1.7em;
   text-transform: uppercase;
@@ -12,4 +15,13 @@
   background-position: center center;
   background-size: cover;
   height: 425px;
+}
+
+// Sticky Footer
+html, body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
 }
