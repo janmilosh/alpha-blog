@@ -5,3 +5,11 @@
   text-transform: uppercase;
   font-weight: bold;
 }
+
+.jumbotron {
+  margin-top: 25px;
+  background-image: asset-url("typewriter.jpg");
+  background-position: center center;
+  background-size: cover;
+  height: 425px;
+}
